@@ -1,15 +1,3 @@
-/**
-* Template Name: Studio
-* Template URL: https://templatemag.com/studio-bootstrap-agency-template/
-* Author: TemplateMag.com
-* License: https://templatemag.com/license/
-*/
-
-
-/* ==========================================================================
-   Base Styles, Bootstrap Modifications & Fonts Import
-   ========================================================================== */
-
 html,
 button,
 input,
@@ -279,6 +267,21 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 80px;
 }
 
+.rows {
+  margin: 0 auto;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  paddig-left: 15px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  max-width: 50%;
+  display: block;
+  height: auto;
+}
+
 .name {
 	text-align: center;
 }
@@ -350,6 +353,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .proc {
+  margin: 0 auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border-bottom: solid 2px transparent;
@@ -360,6 +364,14 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: solid 2px #2f2f2f
 }
 
+.row mt centered {
+  transition: all 1s;
+}
+
+.row mt centered {
+  background-color: red;
+}
+
 .portfolio {
 	background-image: url(../img/portfolio-sep.jpg);
 }
@@ -368,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 #servicewrap {
 	display: block;
 	margin-top: 80px;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 
 #servicewrap h1 {
@@ -377,24 +389,27 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.img-responsive2 {
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 .service {
 	text-align: left;
 }
 
 .service small {
-	font-size: 12px;
+	font-size: 10px;
 	font-weight: bold
 }
 
-.service i {
-	float: left;
-	margin-right: 15px;
-	font-size: 30px;
-	vertical-align: middle;
-}
+
 
 .service .text {
-	color: #767676
+	color: #767676;
+  font-size: 14px;
 }
 
 /* Testimonials Wrap */
